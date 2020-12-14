@@ -1,0 +1,4 @@
+escolhi utilizar o dicionário com hash para melhorar a busca para saber se as palavras estavam ou não no dicionário
+a queue, escolhi porque apenas precisava de uma estrutura para armazenar os dados e ler eles em ordem de inserção.
+
+não consegui usar o algoritmo levenshtein com isso também não consegui achar as sugestões

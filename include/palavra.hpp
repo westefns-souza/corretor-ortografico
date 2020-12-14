@@ -9,6 +9,7 @@ class Palavra
         Palavra(std::string palavra, int linha, int coluna);
         ~Palavra();
 
+        std::string getPalavra() const;
         int getLinha() const;
         int getColuna() const;
 

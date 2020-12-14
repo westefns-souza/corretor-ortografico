@@ -1,9 +1,14 @@
-#include "palavra.h"
+#include "palavra.hpp"
 
 Palavra::Palavra(std::string palavra, int linha, int coluna)
     : palavra(palavra), linha(linha), coluna(coluna) {}
 
 Palavra::~Palavra() {}
+
+std::string
+Palavra::getPalavra() const {
+    return this->palavra;
+}
 
 int
 Palavra::getLinha() const {
